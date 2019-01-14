@@ -1,0 +1,103 @@
+FSRCNN
+
+1. batch300
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=12 , m=4
+
+2. FSRCNN/batch50_48_12_2/
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=48 , s=12 , m=2
+e. Time Consuming : 2.1849136566001106 minutes.
+f. Best Model : FSRCNN/batch50_48_12_2/model_50.pth (Avg. PSNR: 10.068021 dB)
+
+3. FSRCNN/batch50_48_12_3/
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=48 , s=12 , m=3
+e. Time Consuming : 2.483433410250291 minutes.
+f. Best Model : FSRCNN/batch50_48_12_3/model_50.pth (Avg. PSNR: 10.068022 dB)
+
+4. FSRCNN/batch50_48_12_4
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=48 , s=12 , m=4
+e. Time Consuming : 2.964473183049995 minutes.
+f. Best Model : FSRCNN/batch50_48_12_4/model_50.pth (Avg. PSNR: 10.068019 dB)
+
+5. FSRCNN/batch50_56_12_2
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=12 , m=2
+e. Time Consuming : 2.2524367731331343 minutes.
+f. Best Model : FSRCNN/batch50_56_12_2/model_50.pth (Avg. PSNR: 10.068026 dB)
+
+6. FSRCNN/batch50_56_12_3
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=12 , m=3
+e. Time Consuming : 2.6593342317501083 minutes.
+f. Best Model : FSRCNN/batch50_56_12_3/model_50.pth (10.068026 dB)
+
+7. FSRCNN/batch50_56_12_4
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=12 , m=4
+e. Time Consuming : 3.217332803333314 minutes.
+f. Best Model : FSRCNN/batch50_56_12_4/model_50.pth (Avg. PSNR: 10.068028 dB)
+
+8. FSRCNN/batch50_48_16_2
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=48 , s=16 , m=2
+e. Time Consuming : 2.4846239268168575 minutes
+f. Best Model : FSRCNN/batch50_48_16_2/model_50.pth (Avg. PSNR: 10.068025 dB)
+
+9. FSRCNN/batch50_48_16_3
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=48 , s=16 , m=3
+e. Time Consuming : 2.979147294999954 minutes.
+f. Best Model : FSRCNN/batch50_48_16_3/model_50.pth (Avg. PSNR: 10.068021 dB)
+
+10. FSRCNN/batch50_48_16_4
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=48 , s=16 , m=4
+e. Time Consuming : 3.552117510533329 minutes.
+f. Best Model : FSRCNN/batch50_48_16_4/model_50.pth (Avg. PSNR: 10.068026 dB)
+
+11. FSRCNN/batch50_56_16_2
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=16 , m=2
+e. Time Consuming : 2.6153886003167526 minutes.
+f. Best Model : FSRCNN/batch50_56_16_2/model_50.pth (Avg. PSNR: 10.068026 dB)
+
+12. FSRCNN/batch50_56_16_3
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=16 , m=3
+e. Time Consuming : 3.099471449083649 minutes minutes.
+f. Best Model : FSRCNN/batch50_56_16_3/model_50.pth (Avg. PSNR: 10.068023 dB)
+
+13. FSRCNN/batch50_56_16_4
+a. Kernel: (5,1,3,1,9)
+b. in_Channel:1
+c. out_Channel:1
+d. d=56 , s=16 , m=4
+e. Time Consuming : 3.836959631666347 minutes.
+f. Best Model : FSRCNN/batch50_56_16_4/model_50.pth (Avg. PSNR: 10.068022 dB)

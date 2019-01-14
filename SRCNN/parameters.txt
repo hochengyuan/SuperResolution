@@ -1,0 +1,49 @@
+SRCNN
+
+1. batch300
+a. Kernel = (9,5,5)
+b. Channels = (1,64,32,1)
+c. upscale_factor = 3
+d. Padding = (4,2,2)
+e. Time Consuming : 516.0246139547166 minutes.
+
+2. batch10_915_128_64
+a. Kernel = (9,1,5)
+b. channels = (1,128,64,1)
+c. upscale_factor = 3
+d. Padding = (4,0,2)
+e. Time Consuming : 13.062268265350333 minutes.
+f. Best Model : SRCNN/batch10_915_128_64/model_10.pth (7.449662 dB)
+
+3. batch10_915_64_32
+a. Kernel = (9,1,5)
+b. channels = (1,128,64,1)
+c. upscale_factor = 3
+d. Padding = (4,0,2)
+e. Time Consuming : 6.754753726533091 minutes.
+f. Best Model : SRCNN/batch10_915_64_32/model_10.pth (Avg. PSNR: 7.265226 dB)
+
+4. batch10_915_32_16
+a. Kernel = (9,1,5)
+b. channels = (1,128,64,1)
+c. upscale_factor = 3
+d. Padding = (4,0,2)
+e. Time Consuming : 2.3372317761163384 minutes.
+f. Best Model : SRCNN/batch10_915_32_16/model_10.pth (Avg. PSNR: 7.134673 dB)
+
+
+5. batch10_935_64_32
+a. Kernel = (9,3,5)
+b. Channels = (1,64,32)
+c. upscale_factor = 3
+d. Padding = (4,1,2)
+e. Time Consuming :  10.82250974466636 minutes.
+f. Best Model : SRCNN/batch10_935_64_32/model_10.pth (Avg. PSNR: 7.390795 dB)
+
+6. batch10_955_64_32
+a. Kernel = (9,5,5)
+b. Channels = (1,64,32)
+c. upscale_factor = 3
+d. Padding = (4,2,2)
+e. Time Consuming : 17.476790027366466 minutes.
+f. Best Model : SRCNN/batch10_955_64_32/model_10.pth (Avg. PSNR: 7.847875 dB)
